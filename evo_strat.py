@@ -139,6 +139,8 @@ def run(max_gen=100, pop_size=10, mi=20, file_path="model15.txt"):
 
     yy = []
     p = pop[0]
+
+    print("Final Parameters: \na={}\nb={}\nc={}".format(p.a, p.b, p.c))
     for x in X:
         yy.append(origin_function(p.a, p.b, p.c, x))
 
