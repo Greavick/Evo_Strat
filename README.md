@@ -17,7 +17,7 @@ To run the algorithm with default parameters, import the package and use 'run()'
 
 ## Customization
 
-There are five arguments of the run() fuction that can be modified.
+There are four arguments of the run() fuction that can be modified.
 
 ```
 file_path - Path to the data file.
